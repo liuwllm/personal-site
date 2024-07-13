@@ -14,7 +14,12 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    colors: {
+      'borealis': '#4b6ec8',
+      'ice': '#f6fffe'
+    }
   },
   plugins: [],
 };
+
 export default config;
