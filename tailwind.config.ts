@@ -16,7 +16,8 @@ const config: Config = {
     },
     colors: {
       'borealis': '#4b6ec8',
-      'ice': '#f6fffe'
+      'ice': '#f6fffe',
+      'ink': '#505050'
     }
   },
   plugins: [],
