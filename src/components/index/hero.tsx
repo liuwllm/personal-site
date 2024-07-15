@@ -13,7 +13,7 @@ export default function Hero() {
                 </h1>
                 <h1 className={lora.className}>
                     <span className="font-semibold text-7xl">
-                        I'm <span className="text-borealis">William</span>!
+                        I&apos;m <span className="text-borealis">William</span>!
                     </span>
                 </h1>
             </div>
