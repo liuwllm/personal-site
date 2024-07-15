@@ -16,6 +16,7 @@ const config: Config = {
     },
     colors: {
       'borealis': '#4b6ec8',
+      'borealis-lite': '#3d6ff2',
       'ice': '#f6fffe',
       'ink': '#505050'
     }

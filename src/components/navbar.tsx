@@ -4,7 +4,7 @@ import Logo from "../../public/logo.svg";
 
 export default function NavBar() {
     return (
-      <main className="py-14">
+      <main className="pt-14">
         <div className="flex justify-between items-center w-full">
             <Image
                 src={Logo}
