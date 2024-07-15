@@ -6,12 +6,14 @@ export default function NavBar() {
     return (
       <main className="pt-14">
         <div className="flex justify-between items-center w-full">
-            <Image
-                src={Logo}
-                width={60}
-                height={64}
-                alt="Logo"
-            />
+            <Link href="/">
+                <Image
+                    src={Logo}
+                    width={60}
+                    height={64}
+                    alt="Logo"
+                />
+            </Link>
             <div className="flex gap-8">
                 <Link className="group text-lg sm:text-xl font-medium text-slate-800 transition duration-200" href="/projects">
                     <h1 className="text-borealis text-base font-bold">

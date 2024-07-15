@@ -13,12 +13,12 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
-    },
-    colors: {
-      'borealis': '#4b6ec8',
-      'borealis-lite': '#3d6ff2',
-      'ice': '#f6fffe',
-      'ink': '#505050'
+      colors: {
+        'borealis': '#4b6ec8',
+        'borealis-lite': '#3d6ff2',
+        'ice': '#f6fffe',
+        'ink': '#505050'
+      }
     }
   },
   plugins: [],
