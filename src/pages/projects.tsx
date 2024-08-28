@@ -12,7 +12,7 @@ export default function Home() {
 
     const yachip8emu = {
         title: "yachip8emu",
-        emoji: '\u{1F5A5} \u{FE0F}',
+        emoji: '\u{1F5A5}\u{FE0F}',
         subtitle: "rust, sdl2",
         body: "A CHIP-8 emulator built using Rust and SDL2 for the display",
         link: "https://github.com/liuwllm/yachip8emu",
