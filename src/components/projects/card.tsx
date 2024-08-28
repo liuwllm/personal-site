@@ -4,19 +4,20 @@ import Link from "next/link";
 
 interface CardProps {
     title: string,
+    emoji: string,
     subtitle: string,
     body: string,
     link: string,
     sublink?: string 
 }
 
-export default function Card({ title, subtitle, body, link, sublink }: CardProps) {
+export default function Card({ title, emoji, subtitle, body, link, sublink }: CardProps) {
     return (
         <div className="flex flex-col gap-4 w-full bg-white rounded-3xl shadow-lg p-8 sm:p-16">
             <div className="flex flex-row gap-4 items-center text-3xl font-semibold text-borealis hover:text-borealis-lite hover:translate-x-2 transition ease-in-out">
                 <Link href={link}>
                     <h1 className={lora.className}>
-                        {title}
+                        {title} {emoji}
                     </h1>
                 </Link>
                 <ArrowOutwardIcon />
