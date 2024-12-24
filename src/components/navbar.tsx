@@ -5,16 +5,18 @@ import ArrowOutwardIcon from '@mui/icons-material/ArrowOutward';
 
 export default function NavBar() {
     return (
-      <main className="pt-14">
+      <main className="pt-12 mb-12">
         <div className="flex justify-between items-center w-full">
-            <Link href="/">
-                <Image
-                    src={Logo}
-                    width={60}
-                    height={64}
-                    alt="Logo"
-                />
-            </Link>
+            <div className="float-left">
+                <Link href="/">
+                    <Image
+                        src={Logo}
+                        width={60}
+                        height={64}
+                        alt="Logo"
+                    />
+                </Link>
+            </div>
             <div className="flex gap-8">
                 <Link className="group text-lg sm:text-xl font-medium text-slate-800 transition duration-200" href="/projects">
                     <h1 className="text-borealis text-base font-bold">

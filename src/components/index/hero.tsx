@@ -7,7 +7,7 @@ import Link from 'next/link';
 export default function Hero() {
     return (
         <div className="flex flex-col gap-10 text-ink">
-            <div className="flex flex-col gap-4 2xl:pt-0 xl:pt-2 lg:pt-4 md:pt-8 sm:pt-12 pt-16">
+            <div className="flex flex-col gap-4">
                 <h1 className="text-2xl">
                     Hello,
                 </h1>

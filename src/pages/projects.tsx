@@ -30,12 +30,14 @@ export default function Home() {
     return (
         <>
             <title>William Liu | Projects</title>
-            <main className="flex flex-col min-h-screen w-full bg-ice 2xl:px-96 xl:px-72 lg:px-60 md:px-24 sm:px-12 px-12">
-                <NavBar />
-                <div className="flex-grow flex flex-col justify-center gap-16 2xl:px-24 xl:px-16 lg:px-12 md:px-6 sm:px-2 px-0 py-16">
-                    <Card title={anishelf.title} emoji={anishelf.emoji} subtitle={anishelf.subtitle} body={anishelf.body} link={anishelf.link} />
-                    <Card title={yachip8emu.title} emoji={yachip8emu.emoji} subtitle={yachip8emu.subtitle} body={yachip8emu.body} link={yachip8emu.link} />
-                    <Card title={wealthsimplepm.title} emoji={wealthsimplepm.emoji} subtitle={wealthsimplepm.subtitle} body={wealthsimplepm.body} link={wealthsimplepm.link} sublink={wealthsimplepm.sublink}/>
+            <main className="bg-ice w-full">
+                <div className="min-h-screen flex flex-col max-w-6xl p-6 mx-auto justify-center">
+                    <NavBar />
+                    <div className="flex-grow flex flex-col justify-center gap-16">
+                        <Card title={anishelf.title} emoji={anishelf.emoji} subtitle={anishelf.subtitle} body={anishelf.body} link={anishelf.link} />
+                        <Card title={yachip8emu.title} emoji={yachip8emu.emoji} subtitle={yachip8emu.subtitle} body={yachip8emu.body} link={yachip8emu.link} />
+                        <Card title={wealthsimplepm.title} emoji={wealthsimplepm.emoji} subtitle={wealthsimplepm.subtitle} body={wealthsimplepm.body} link={wealthsimplepm.link} sublink={wealthsimplepm.sublink}/>
+                    </div>
                 </div>
             </main>
         </>

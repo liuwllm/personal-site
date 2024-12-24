@@ -7,12 +7,14 @@ export default function Home() {
   return (
     <>
       <title>William Liu</title>
-      <main className="flex flex-col min-h-screen w-full bg-ice 2xl:px-96 xl:px-72 lg:px-60 md:px-24 sm:px-12 px-12">
-        <NavBar />
-        <div className="flex-grow flex flex-col justify-center gap-16">
-          <Hero />
-          <Body />
-          <ProjectCTA />
+      <main className="bg-ice w-full">
+        <div className="min-h-screen flex flex-col max-w-6xl p-6 mx-auto justify-center">
+          <NavBar />
+          <div className="flex-grow flex flex-col justify-center gap-16 px-4 w-full">
+            <Hero />
+            <Body />
+            <ProjectCTA />
+          </div>
         </div>
       </main>
     </>
